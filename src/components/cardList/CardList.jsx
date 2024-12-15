@@ -12,6 +12,8 @@ const CardList = () => {
         <div className={styles.post}>
           <Card />
           <Card />
+          <Card />
+          <Card />
         </div>
       </div>
     <Pagination/>
