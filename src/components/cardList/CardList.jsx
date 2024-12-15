@@ -10,7 +10,8 @@ const CardList = () => {
       <h1 className={styles.title}>Recents Posts</h1>
       <div className={styles.posts}>
         <div className={styles.post}>
-          <Card/>
+          <Card />
+          <Card />
         </div>
       </div>
     <Pagination/>

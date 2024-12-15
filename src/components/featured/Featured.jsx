@@ -1,3 +1,4 @@
+
 import React from "react";
 import styles from "./featured.module.css";
 import Image from "next/image";
@@ -13,9 +14,15 @@ const Featured = () => {
           <Image src="/p1.jpeg" alt="" fill className={styles.image} />
         </div>
         <div className={styles.textContainer}>
-          <h1 className={styles.postTitle}>Titleeeeeeeeeeeeee</h1>
+          <h1 className={styles.postTitle}>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          </h1>
           <p className={styles.postDesc}>
-            descript ionnnn nnnnn nnnnn nnnn nnnnn nnnnn nnnn nnnnnn nnnnnn nnnnnn
+            Ad adipisicing esse enim qui pariatur pariatur irure exercitation
+            aliqua. Culpa sint elit nulla id voluptate. Proident exercitation
+            veniam ex minim nulla minim id est. Aliquip consequat non dolore
+            voluptate eiusmod. Excepteur excepteur ullamco proident minim nisi
+            ipsum esse ad magna consectetur. In Lorem do elit ut.
           </p>
           <button className={styles.button}>Read more</button>
         </div>
